@@ -32,4 +32,3 @@ elif Var1 == "createcoupon":
     print(resp.json()["coupon"])
 else:
     print("You didn't enter a valid api")
-print(resp.status_code)
